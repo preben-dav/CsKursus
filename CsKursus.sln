@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_25_1_DebugTest", "DebugTest\Opg_25_1_DebugTest.csproj", "{C3EEC562-855C-437A-976B-366BF14E949E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrugAfVariabler", "BrugAfVariabler\BrugAfVariabler.csproj", "{1741B787-B9C0-4F22-8D95-C0903A4EE264}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_40_1_BrugAfVariabler", "BrugAfVariabler\Opg_40_1_BrugAfVariabler.csproj", "{1741B787-B9C0-4F22-8D95-C0903A4EE264}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

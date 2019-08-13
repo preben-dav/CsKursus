@@ -10,7 +10,7 @@ namespace BrugAfVariabler
             a++;
             a--;
             a += 20;
-            Console.WriteLine(a);
+            Console.WriteLine(a.ToString("N2"));
 
             double b = 12.5;
             Console.WriteLine(b);

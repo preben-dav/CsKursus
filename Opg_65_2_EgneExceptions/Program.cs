@@ -16,6 +16,7 @@ namespace Opg_65_2_EgneExceptions
                 // eller
                 Console.WriteLine(SmartToUpper(null));
 
+
             }
             catch (Exception ex)
             {

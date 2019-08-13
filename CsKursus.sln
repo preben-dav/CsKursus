@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_45_1_DateTime", "Opg_45
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_25_1_DebugTest", "Opg_25_1_Debug\Opg_25_1_DebugTest.csproj", "{118AFAA5-AE63-4748-BD4A-4F17D0F3E03A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_45_2_Strenge", "Opg_45_2_Strenge\Opg_45_2_Strenge.csproj", "{EEB6CC65-1230-42DC-B777-C04B7CA5AE8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{118AFAA5-AE63-4748-BD4A-4F17D0F3E03A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{118AFAA5-AE63-4748-BD4A-4F17D0F3E03A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{118AFAA5-AE63-4748-BD4A-4F17D0F3E03A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEB6CC65-1230-42DC-B777-C04B7CA5AE8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB6CC65-1230-42DC-B777-C04B7CA5AE8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB6CC65-1230-42DC-B777-C04B7CA5AE8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB6CC65-1230-42DC-B777-C04B7CA5AE8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

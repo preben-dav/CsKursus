@@ -2,24 +2,35 @@
 
 namespace Test
 {
+
+    public enum Køn
+    {
+        Kvinde,
+        Mand
+    }
     class Program
     {
+
         static void Main(string[] args)
         {
-            DateTime a,b;
-            a = DateTime.Now;
-            a = new DateTime(2019, 8, 12);
-            Console.WriteLine($"a = {a}");
-            b=a.AddDays(1);
-            Console.WriteLine($"b = {b}");
+            string person1Navn = "Mathias";
+            int person1Alder = 12;
+            Test.Køn person1Køn = Test.Køn.Mand;
 
-            Console.WriteLine($"Dag på året {a.DayOfYear}");
+            string person2Navn = "Lene";
+            int person2Alder = 53;
+            Test.Køn person2Køn = Test.Køn.Kvinde;
 
-            Console.WriteLine($"Ugedag {a.DayOfWeek.ToString()}");
-            Console.WriteLine($"Lille dato streng {a.ToShortDateString()}");
-            Console.WriteLine($"Stor dato streng {a.ToLongDateString()}");
-            Console.WriteLine($"Lille tid streng {a.ToShortTimeString()}");
-            Console.WriteLine($"Stor tid streng {a.ToLongTimeString()}");
+
+            // Fra enum til tekst, til nummer og retur
+            Test.Køn køn = Test.Køn.Kvinde;
+            Console.WriteLine($"køn = {køn.ToString()}");
+            int kode = (int)køn;
+            Console.WriteLine($"kode = {kode}");
+            kode = 1;
+            Test.Køn køn2 = (Test.Køn)kode;
+            Console.WriteLine($"køn2 = {køn2}");
+            Console.WriteLine($"kode køn2 = {(int)køn2}");
 
         }
     }

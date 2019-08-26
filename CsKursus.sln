@@ -5,25 +5,31 @@ VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_40_1_BrugAfVariabler", "BrugAfVariabler\Opg_40_1_BrugAfVariabler.csproj", "{1741B787-B9C0-4F22-8D95-C0903A4EE264}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_40_2_Regnemaskine", "Opg_40_2_Regnemaskine\Opg_40_2_Regnemaskine.csproj", "{DC07621D-DCAF-4AE6-BAD4-EDF03DB41031}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_40_2_Regnemaskine", "Opg_40_2_Regnemaskine\Opg_40_2_Regnemaskine.csproj", "{DC07621D-DCAF-4AE6-BAD4-EDF03DB41031}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{BB17550B-136B-4E5C-A5FE-C132D9B04C51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{BB17550B-136B-4E5C-A5FE-C132D9B04C51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_45_1_DateTime", "Opg_45_1_DateTime\Opg_45_1_DateTime.csproj", "{5D650600-ED78-40D0-9605-31EE0E54F45A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_45_1_DateTime", "Opg_45_1_DateTime\Opg_45_1_DateTime.csproj", "{5D650600-ED78-40D0-9605-31EE0E54F45A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_25_1_DebugTest", "Opg_25_1_Debug\Opg_25_1_DebugTest.csproj", "{118AFAA5-AE63-4748-BD4A-4F17D0F3E03A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_45_2_Strenge", "Opg_45_2_Strenge\Opg_45_2_Strenge.csproj", "{EEB6CC65-1230-42DC-B777-C04B7CA5AE8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_45_2_Strenge", "Opg_45_2_Strenge\Opg_45_2_Strenge.csproj", "{EEB6CC65-1230-42DC-B777-C04B7CA5AE8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_48_1_Enum", "Opg_48_1_Enum\Opg_48_1_Enum.csproj", "{511414D4-5CE9-456B-A947-B2B1AF40A007}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_48_1_Enum", "Opg_48_1_Enum\Opg_48_1_Enum.csproj", "{511414D4-5CE9-456B-A947-B2B1AF40A007}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_50_2_Break", "Opg_50_2_Break\Opg_50_2_Break.csproj", "{B52EA396-E3A5-4F0F-A7F7-1C7E2DA12DE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_50_2_Break", "Opg_50_2_Break\Opg_50_2_Break.csproj", "{B52EA396-E3A5-4F0F-A7F7-1C7E2DA12DE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_50_1_For_If", "Opg_50_1_For_If\Opg_50_1_For_If.csproj", "{FBD97A82-D58C-4760-9116-34DCB89DDEC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_50_1_For_If", "Opg_50_1_For_If\Opg_50_1_For_If.csproj", "{FBD97A82-D58C-4760-9116-34DCB89DDEC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_65_1_SimpelFejlhåndtering", "Opg_65_1_SimpelFejlhåndtering\Opg_65_1_SimpelFejlhåndtering.csproj", "{48CE2578-FAF9-4436-BFD7-F190CE1BEDCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_65_1_SimpelFejlhåndtering", "Opg_65_1_SimpelFejlhåndtering\Opg_65_1_SimpelFejlhåndtering.csproj", "{48CE2578-FAF9-4436-BFD7-F190CE1BEDCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_65_2_EgneExceptions", "Opg_65_2_EgneExceptions\Opg_65_2_EgneExceptions.csproj", "{5FEF13F2-9506-4FDC-BFA8-CDE2B33E4F03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_65_2_EgneExceptions", "Opg_65_2_EgneExceptions\Opg_65_2_EgneExceptions.csproj", "{5FEF13F2-9506-4FDC-BFA8-CDE2B33E4F03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_60_1_Metoder_simple", "Opg_60_1_Metoder_simple\Opg_60_1_Metoder_simple.csproj", "{7DD0AD0B-54C7-446E-A6F8-E40F049BB1CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_60_2_Metoder_Statisk", "Opg_60_2_Metoder_Statisk\Opg_60_2_Metoder_Statisk.csproj", "{AA7674C4-1273-460D-BBF9-1764C123257D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_60_3_Metoder_Overload", "Opg_60_3_Metoder_Overload\Opg_60_3_Metoder_Overload.csproj", "{3D1006A0-4CA6-4157-AF5D-628BE152A167}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +81,18 @@ Global
 		{5FEF13F2-9506-4FDC-BFA8-CDE2B33E4F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FEF13F2-9506-4FDC-BFA8-CDE2B33E4F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FEF13F2-9506-4FDC-BFA8-CDE2B33E4F03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DD0AD0B-54C7-446E-A6F8-E40F049BB1CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD0AD0B-54C7-446E-A6F8-E40F049BB1CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD0AD0B-54C7-446E-A6F8-E40F049BB1CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DD0AD0B-54C7-446E-A6F8-E40F049BB1CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA7674C4-1273-460D-BBF9-1764C123257D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA7674C4-1273-460D-BBF9-1764C123257D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA7674C4-1273-460D-BBF9-1764C123257D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA7674C4-1273-460D-BBF9-1764C123257D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D1006A0-4CA6-4157-AF5D-628BE152A167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1006A0-4CA6-4157-AF5D-628BE152A167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1006A0-4CA6-4157-AF5D-628BE152A167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1006A0-4CA6-4157-AF5D-628BE152A167}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

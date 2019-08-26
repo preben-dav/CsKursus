@@ -8,7 +8,7 @@ namespace Opg_60_3_Metoder_Overload
         {
             Console.WriteLine("Overload opg");
 
-        }
+         }
 
         public static int Beregn(int a, int b)
         {

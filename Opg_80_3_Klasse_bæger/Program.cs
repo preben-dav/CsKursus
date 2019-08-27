@@ -7,6 +7,12 @@ namespace Opg_80_3_Klasse_bæger
         static void Main(string[] args)
         {
             Console.WriteLine("Bæger med terninger");
+
+            Bæger b = new Bæger();
+            b.Skriv();
+            b.Ryst();
+            b.Skriv();
+
         }
     }
 
@@ -34,22 +40,33 @@ namespace Opg_80_3_Klasse_bæger
 
     public class Bæger
     {
-        public Terning[] terninger;
+        public Terning[] terninger = new Terning[5];
 
         public Bæger()
         {
-
+            for (int i = 0; i < 5; i++)
+            {
+                this.terninger[i] = new Terning();
+                this.terninger[i].Ryst();
+            }
         }
 
 
-        public Ryst()
+        public void Ryst()
         {
-
+            foreach (var item in this.terninger)
+            {
+                item.Ryst(); 
+            }
         }
 
-        public Skriv()
+        public void Skriv()
         {
-
+            foreach (var item in this.terninger)
+            {
+                item.Skriv();
+            }
+            Console.WriteLine();
         }
 
     }

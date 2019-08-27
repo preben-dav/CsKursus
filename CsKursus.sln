@@ -25,25 +25,37 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_65_1_SimpelFejlhåndter
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_65_2_EgneExceptions", "Opg_65_2_EgneExceptions\Opg_65_2_EgneExceptions.csproj", "{5FEF13F2-9506-4FDC-BFA8-CDE2B33E4F03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_60_1_Metoder_simple", "Opg_60_1_Metoder_simple\Opg_60_1_Metoder_simple.csproj", "{7DD0AD0B-54C7-446E-A6F8-E40F049BB1CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_60_1_Metoder_simple", "Opg_60_1_Metoder_simple\Opg_60_1_Metoder_simple.csproj", "{7DD0AD0B-54C7-446E-A6F8-E40F049BB1CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_60_2_Metoder_Statisk", "Opg_60_2_Metoder_Statisk\Opg_60_2_Metoder_Statisk.csproj", "{AA7674C4-1273-460D-BBF9-1764C123257D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_60_2_Metoder_Statisk", "Opg_60_2_Metoder_Statisk\Opg_60_2_Metoder_Statisk.csproj", "{AA7674C4-1273-460D-BBF9-1764C123257D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_60_3_Metoder_Overload", "Opg_60_3_Metoder_Overload\Opg_60_3_Metoder_Overload.csproj", "{3D1006A0-4CA6-4157-AF5D-628BE152A167}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_60_3_Metoder_Overload", "Opg_60_3_Metoder_Overload\Opg_60_3_Metoder_Overload.csproj", "{3D1006A0-4CA6-4157-AF5D-628BE152A167}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_70_1_Array_simpel", "Opg_70_1_Array_opret\Opg_70_1_Array_simpel.csproj", "{E75BC628-3F97-4EA5-96D0-AD66AA195193}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_70_1_Array_simpel", "Opg_70_1_Array_opret\Opg_70_1_Array_simpel.csproj", "{E75BC628-3F97-4EA5-96D0-AD66AA195193}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_70_2_Arrays_split", "Opg_70_2_Arrays_split\Opg_70_2_Arrays_split.csproj", "{FE5A381C-C879-4198-AAE3-A770B94941D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_70_2_Arrays_split", "Opg_70_2_Arrays_split\Opg_70_2_Arrays_split.csproj", "{FE5A381C-C879-4198-AAE3-A770B94941D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_75_1_Samlinger_simpel", "Opg_75_1_Samlinger_simpel\Opg_75_1_Samlinger_simpel.csproj", "{CE127052-2936-45FA-A07E-639B4FB47FA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_75_1_Samlinger_simpel", "Opg_75_1_Samlinger_simpel\Opg_75_1_Samlinger_simpel.csproj", "{CE127052-2936-45FA-A07E-639B4FB47FA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_70_3_Array2D", "Opg_70_3_Array2D\Opg_70_3_Array2D.csproj", "{3E3A228F-1C9F-47D7-AA06-482AC24907C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_70_3_Array2D", "Opg_70_3_Array2D\Opg_70_3_Array2D.csproj", "{3E3A228F-1C9F-47D7-AA06-482AC24907C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_80_1_KLasse_simpel", "Opg_80_1_KLasse_simpel\Opg_80_1_KLasse_simpel.csproj", "{099594CD-E901-432C-9713-B4F7C59123F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_80_1_KLasse_simpel", "Opg_80_1_KLasse_simpel\Opg_80_1_KLasse_simpel.csproj", "{099594CD-E901-432C-9713-B4F7C59123F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_80_2_Klasse_terning", "Opg_80_2_Klasse_terning\Opg_80_2_Klasse_terning.csproj", "{C62B59A6-41E4-49A1-80F7-2EB5DEAE8D33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_80_2_Klasse_terning", "Opg_80_2_Klasse_terning\Opg_80_2_Klasse_terning.csproj", "{C62B59A6-41E4-49A1-80F7-2EB5DEAE8D33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_80_3_Klasse_bæger", "Opg_80_3_Klasse_bæger\Opg_80_3_Klasse_bæger.csproj", "{F42604EB-0812-478B-8C16-7CEBF7F2E482}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_80_3_Klasse_bæger", "Opg_80_3_Klasse_bæger\Opg_80_3_Klasse_bæger.csproj", "{F42604EB-0812-478B-8C16-7CEBF7F2E482}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_87_1_Struct_vs_Class", "Opg_87_1_Struct_vs_Class\Opg_87_1_Struct_vs_Class.csproj", "{ACD924F0-1DBA-40E9-A3EB-C24140AC444E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_87_2_Stack_Heap", "Opg_87_2_Stack_Heap\Opg_87_2_Stack_Heap.csproj", "{AD3CD007-B000-4154-BDB3-5E560B7ACD48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_80_4_Klasser_statisk", "Opg_80_4_Klasser_statisk\Opg_80_4_Klasser_statisk.csproj", "{71018337-9B48-43BD-9CE2-DC73BDDFC8CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_90_0_Konto", "Opg_90_0_Konto\Opg_90_0_Konto.csproj", "{01E83DBC-071E-48D8-AA2F-ECD5206CFC69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_90_Egenskab_demo", "Opg_90_Egenskab_demo\Opg_90_Egenskab_demo.csproj", "{7A7FA5EA-EE9A-4380-AE56-DFD06E40962B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_90_1_Komplette egenskaber", "Opg_90_1_Komplette egenskaber\Opg_90_1_Komplette egenskaber.csproj", "{8EC47B50-CED1-4CA8-B2EA-5E4AA8637F6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +147,30 @@ Global
 		{F42604EB-0812-478B-8C16-7CEBF7F2E482}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F42604EB-0812-478B-8C16-7CEBF7F2E482}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F42604EB-0812-478B-8C16-7CEBF7F2E482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD924F0-1DBA-40E9-A3EB-C24140AC444E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD924F0-1DBA-40E9-A3EB-C24140AC444E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD924F0-1DBA-40E9-A3EB-C24140AC444E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD924F0-1DBA-40E9-A3EB-C24140AC444E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD3CD007-B000-4154-BDB3-5E560B7ACD48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD3CD007-B000-4154-BDB3-5E560B7ACD48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD3CD007-B000-4154-BDB3-5E560B7ACD48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD3CD007-B000-4154-BDB3-5E560B7ACD48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71018337-9B48-43BD-9CE2-DC73BDDFC8CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71018337-9B48-43BD-9CE2-DC73BDDFC8CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71018337-9B48-43BD-9CE2-DC73BDDFC8CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71018337-9B48-43BD-9CE2-DC73BDDFC8CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01E83DBC-071E-48D8-AA2F-ECD5206CFC69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E83DBC-071E-48D8-AA2F-ECD5206CFC69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E83DBC-071E-48D8-AA2F-ECD5206CFC69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E83DBC-071E-48D8-AA2F-ECD5206CFC69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A7FA5EA-EE9A-4380-AE56-DFD06E40962B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7FA5EA-EE9A-4380-AE56-DFD06E40962B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7FA5EA-EE9A-4380-AE56-DFD06E40962B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7FA5EA-EE9A-4380-AE56-DFD06E40962B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EC47B50-CED1-4CA8-B2EA-5E4AA8637F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EC47B50-CED1-4CA8-B2EA-5E4AA8637F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EC47B50-CED1-4CA8-B2EA-5E4AA8637F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EC47B50-CED1-4CA8-B2EA-5E4AA8637F6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

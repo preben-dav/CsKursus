@@ -57,6 +57,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_90_Egenskab_demo", "Opg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_90_1_Komplette egenskaber", "Opg_90_1_Komplette egenskaber\Opg_90_1_Komplette egenskaber.csproj", "{8EC47B50-CED1-4CA8-B2EA-5E4AA8637F6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_90_3_Egenskaber_automatisk", "Opg_90_3_Egenskaber_automatisk\Opg_90_3_Egenskaber_automatisk.csproj", "{49F2E8C1-3D25-489F-8B3B-77E47D72C03F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_100_1_Simpel arv", "Opg_100_1_Simpel arv\Opg_100_1_Simpel arv.csproj", "{B0B331F3-5D0A-4D8E-AC4F-13C81BB5BC1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_100_2_Arv_random", "Opg_100_2_Arv_random\Opg_100_2_Arv_random.csproj", "{FC16CDA3-71E0-402B-981B-8A54A7017500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_90_4_Egenskaber_terning", "Opg_90_4_Egenskaber_terning\Opg_90_4_Egenskaber_terning.csproj", "{C6801351-CEB4-4693-BD90-30D63A59461E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_100_3_Arv_terning", "Opg_100_3_Arv_terning\Opg_100_3_Arv_terning.csproj", "{978E2A94-42B7-4DB0-B0C7-07EB0322903E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_105_1_Arv_polymorfi", "Opg_105_1_Arv_polymorfi\Opg_105_1_Arv_polymorfi.csproj", "{9BC07849-C326-4826-B44B-A3F9BA37C787}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +183,30 @@ Global
 		{8EC47B50-CED1-4CA8-B2EA-5E4AA8637F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EC47B50-CED1-4CA8-B2EA-5E4AA8637F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EC47B50-CED1-4CA8-B2EA-5E4AA8637F6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49F2E8C1-3D25-489F-8B3B-77E47D72C03F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49F2E8C1-3D25-489F-8B3B-77E47D72C03F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49F2E8C1-3D25-489F-8B3B-77E47D72C03F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49F2E8C1-3D25-489F-8B3B-77E47D72C03F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0B331F3-5D0A-4D8E-AC4F-13C81BB5BC1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0B331F3-5D0A-4D8E-AC4F-13C81BB5BC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0B331F3-5D0A-4D8E-AC4F-13C81BB5BC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0B331F3-5D0A-4D8E-AC4F-13C81BB5BC1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC16CDA3-71E0-402B-981B-8A54A7017500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC16CDA3-71E0-402B-981B-8A54A7017500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC16CDA3-71E0-402B-981B-8A54A7017500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC16CDA3-71E0-402B-981B-8A54A7017500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6801351-CEB4-4693-BD90-30D63A59461E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6801351-CEB4-4693-BD90-30D63A59461E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6801351-CEB4-4693-BD90-30D63A59461E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6801351-CEB4-4693-BD90-30D63A59461E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{978E2A94-42B7-4DB0-B0C7-07EB0322903E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{978E2A94-42B7-4DB0-B0C7-07EB0322903E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{978E2A94-42B7-4DB0-B0C7-07EB0322903E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{978E2A94-42B7-4DB0-B0C7-07EB0322903E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BC07849-C326-4826-B44B-A3F9BA37C787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC07849-C326-4826-B44B-A3F9BA37C787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC07849-C326-4826-B44B-A3F9BA37C787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC07849-C326-4826-B44B-A3F9BA37C787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

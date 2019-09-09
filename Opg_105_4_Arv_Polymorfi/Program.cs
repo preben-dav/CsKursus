@@ -25,6 +25,12 @@ namespace Opg_105_4_Arv_Polymorfi
             {
                 item.SigNoget();
             }
+
+            for (int i = 0; i < 20; i++)
+            {
+                //Dyr d = new Dyr();
+                
+            }
         }
     }
 
@@ -32,6 +38,26 @@ namespace Opg_105_4_Arv_Polymorfi
     {
         public string Navn { get; set; }
         public abstract void SigNoget();
+
+        private static System.Random rnd = new Random();
+        public static Dyr TilfældigtDyr()
+        {
+            
+            string data = "Freja;Bella;Emma;Mille;Fie;Molly;Lady;Trine;Trunte;Luna;Amanda;";
+            data += "Bonnie;Laika;Ronja;Sally;Trille;Zita;Tøsen;Bianca;Zenta;Victor;Buller;";
+            data += "Buster;King;Simba;Thor;Charlie;Samson;Bamse;Mickey;Max;Rasmus;Sofus;Anton;";
+            data += "Laban;Basse;Bølle;Oliver;Oscar;Balder";
+            string[] navne = data.Split(';');
+            int index = rnd.Next(0, navne.Length);
+            if (index % 2 == 0)
+            {
+                return new Hund() { Navn = navne[index] };
+            }
+            else
+            {
+                return new Kat() { Navn = navne[index] };
+            }
+        }
     }
 
     class Hund : Dyr

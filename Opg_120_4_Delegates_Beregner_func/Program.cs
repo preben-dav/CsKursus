@@ -1,20 +1,21 @@
 ﻿using System;
 
-namespace Opg_120_2_Delegates_beregner
+namespace Opg_120_4_Delegates_beregner_func
 {
 
-    public delegate int Beregn(int a, int b);
+    //  public delegate int Beregn(int a, int b);
+
+
     class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Delegates beregner");
-
+          
             int res = Beregner(2, 4, Plus); // lægger sammen
             Console.WriteLine(res);
             res = Beregner(2, 4, Minus);	// trækker fra
             Console.WriteLine(res);
-
 
             // Find tilfældig
             var f = FindTilfældigFunktion();
@@ -25,8 +26,8 @@ namespace Opg_120_2_Delegates_beregner
 
         }
 
-
-        public static int Beregner(int a, int b, Beregn f)
+        
+        public static int Beregner(int a, int b, Func<int,int,int> f)
         {
             return f(a, b);
         }
@@ -50,7 +51,7 @@ namespace Opg_120_2_Delegates_beregner
             return a * b;
         }
 
-        public static Beregn FindTilfældigFunktion()
+        public static Func<int,int,int> FindTilfældigFunktion()
         {
             if (System.DateTime.Now.Millisecond <= 250)
                 return Plus;

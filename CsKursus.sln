@@ -69,19 +69,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_100_3_Arv_terning", "Op
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_105_1_Arv_polymorfi", "Opg_105_1_Arv_polymorfi\Opg_105_1_Arv_polymorfi.csproj", "{9BC07849-C326-4826-B44B-A3F9BA37C787}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_105_3_Arv_Abstrakt_klasse", "Opg_105_3_Arv_Abstrakt_klasse\Opg_105_3_Arv_Abstrakt_klasse.csproj", "{5D2AAA05-E58E-4576-B402-66CE72DC7A79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_105_3_Arv_Abstrakt_klasse", "Opg_105_3_Arv_Abstrakt_klasse\Opg_105_3_Arv_Abstrakt_klasse.csproj", "{5D2AAA05-E58E-4576-B402-66CE72DC7A79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_105_4_Arv_Polymorfi", "Opg_105_4_Arv_Polymorfi\Opg_105_4_Arv_Polymorfi.csproj", "{8D6A9099-CE79-46C1-98AB-856FA56B42AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_105_4_Arv_Polymorfi", "Opg_105_4_Arv_Polymorfi\Opg_105_4_Arv_Polymorfi.csproj", "{8D6A9099-CE79-46C1-98AB-856FA56B42AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_110_1_Eget_Interface", "Opg_110_1_Eget_Interface\Opg_110_1_Eget_Interface.csproj", "{2E7F8942-E43E-4F3A-8F94-C29FD256FBEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_110_1_Eget_Interface", "Opg_110_1_Eget_Interface\Opg_110_1_Eget_Interface.csproj", "{2E7F8942-E43E-4F3A-8F94-C29FD256FBEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_110_2_IComparable", "Opg_110_2_IComparable\Opg_110_2_IComparable.csproj", "{22470A7F-B926-4A9C-B685-20578A344523}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_110_2_IComparable", "Opg_110_2_IComparable\Opg_110_2_IComparable.csproj", "{22470A7F-B926-4A9C-B685-20578A344523}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_120_1_Delegates_grundlæggende", "Opg_120_1_Delegates_grundlæggende\Opg_120_1_Delegates_grundlæggende.csproj", "{C5EB1FE2-25A0-4894-86C7-3E9D32612FEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_120_1_Delegates_grundlæggende", "Opg_120_1_Delegates_grundlæggende\Opg_120_1_Delegates_grundlæggende.csproj", "{C5EB1FE2-25A0-4894-86C7-3E9D32612FEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_120_2_Delegates_beregner", "Opg_120_2_Delegates_beregner\Opg_120_2_Delegates_beregner.csproj", "{BCD51BF9-51B0-411A-B5E3-D799D787F8D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_120_2_Delegates_beregner", "Opg_120_2_Delegates_beregner\Opg_120_2_Delegates_beregner.csproj", "{BCD51BF9-51B0-411A-B5E3-D799D787F8D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_120_3_Delegates_log", "Opg_120_3_Delegates_log\Opg_120_3_Delegates_log.csproj", "{99D81CE8-654A-48E7-BEAC-C52AB830D723}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opg_120_3_Delegates_log", "Opg_120_3_Delegates_log\Opg_120_3_Delegates_log.csproj", "{99D81CE8-654A-48E7-BEAC-C52AB830D723}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_120_4_Delegates_Beregner_func", "Opg_120_4_Delegates_Beregner_func\Opg_120_4_Delegates_Beregner_func.csproj", "{4A4C4D1A-EF85-442C-9742-BCA422BEAFFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opg_120_5_Delegates_Lambda", "Opg_120_5_Delegates_Lambda\Opg_120_5_Delegates_Lambda.csproj", "{DDF87FCC-B7A9-42BF-B45D-CD4966DE402B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -249,6 +253,14 @@ Global
 		{99D81CE8-654A-48E7-BEAC-C52AB830D723}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99D81CE8-654A-48E7-BEAC-C52AB830D723}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99D81CE8-654A-48E7-BEAC-C52AB830D723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A4C4D1A-EF85-442C-9742-BCA422BEAFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A4C4D1A-EF85-442C-9742-BCA422BEAFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A4C4D1A-EF85-442C-9742-BCA422BEAFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A4C4D1A-EF85-442C-9742-BCA422BEAFFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDF87FCC-B7A9-42BF-B45D-CD4966DE402B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF87FCC-B7A9-42BF-B45D-CD4966DE402B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF87FCC-B7A9-42BF-B45D-CD4966DE402B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF87FCC-B7A9-42BF-B45D-CD4966DE402B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

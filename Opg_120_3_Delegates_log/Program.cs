@@ -12,31 +12,35 @@ namespace Opg_120_3_Delegates_log
             m.Log = Console.WriteLine;
             m.Log += AppendLog;
             m.Start();
-            m.Stop();
+         //   m.Stop();
 
         }
         static void AppendLog(string txt)
         {
             // Kræver at c:\temp findes i forvejen!
             System.IO.File.AppendAllText(@"c:\temp\log.txt", txt + "\r\n");
-            //test
+            
         }
     }
 
-    public delegate void LogDelegate(string s);
+    //public delegate void LogDelegate(string s);
 
     public class Maskine
     {
 
-        public LogDelegate  Log { get; set; }
+        public Action<string> Log;
 
         public void Start()
     {
-        Log?.Invoke         
+            Log?.Invoke("test");
     }
 
+        public void Stop()
+        {
+            //      Log?.Invoke         
+        }
 
 
-}
+    }
 
 }

@@ -2,23 +2,50 @@
 
 namespace Demo
 {
-    // Defination af delegates
-    public delegate void MinDelegate1();
-    public delegate void MinDelegate2(string txt);
-    public delegate int MinDelegate3(int a, int b);
-
-    internal class Program
+    class Program
     {
-        private static void Main(string[] args)
+        static void Main(string[] args)
         {
-
-
-            if (System.Diagnostics.Debugger.IsAttached)
+            Terning t = new Terning();
+            t.ErSekser += (s, e) =>
             {
-                Console.Write("Press any key to continue . . . ");
-                Console.ReadKey();
+                Console.WriteLine("SEKSER!!!!");
+                Console.Beep();
+            };
+
+            for (int i = 0; i < 10; i++)
+            {
+                t.Ryst();
+                t.Skriv();
             }
+
         }
     }
 
+    public class Terning
+    {
+        private System.Random rnd = new Random();
+        public event EventHandler ErSekser;
+
+        public int Værdi { get; private set; }
+
+        public Terning()
+        {
+            this.Ryst();
+        }
+
+        public void Ryst()
+        {
+            this.Værdi = rnd.Next(1, 7);
+            if (this.Værdi == 6)
+            {
+                ErSekser?.Invoke(this, new EventArgs());
+            }
+        }
+
+        public void Skriv()
+        {
+            Console.WriteLine($"[{this.Værdi}]");
+        }
+    }
 }

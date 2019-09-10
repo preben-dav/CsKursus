@@ -19,6 +19,7 @@ namespace Opg_120_3_Delegates_log
         {
             // Kræver at c:\temp findes i forvejen!
             System.IO.File.AppendAllText(@"c:\temp\log.txt", txt + "\r\n");
+            //test
         }
     }
 
